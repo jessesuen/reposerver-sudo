@@ -1,0 +1,4 @@
+Defaults umask_override
+Defaults umask=0077
+
+reposerver ALL=(%git) NOPASSWD:ALL
